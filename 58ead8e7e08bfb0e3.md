@@ -35,11 +35,12 @@ otherNo=' or mid(user(),1,1)='r' -- &get=Get%2BAccount%2BInfo
 
 First, we use boolean injection to test whether the first bit of user() is r
 
-By returning the length of the package, you can compare it to the true and suitable return length is 4791.
-
 <img width="933" height="284" alt="image" src="https://github.com/user-attachments/assets/1a64f2a5-9b20-4d18-a0dd-6cd600456520" />
 
-<img width="1241" height="722" alt="image" src="https://github.com/user-attachments/assets/cd793e5a-90d1-48c8-a9be-3adf788bcf21" />
+By returning the length of the package, you can compare it to the true and suitable return length is 4791.
+
+<img width="930" height="299" alt="image" src="https://github.com/user-attachments/assets/3fbebd75-ac1f-4304-8382-081f6e213b2d" />
+
 
 Verify again to determine whether the first four digits of user() are root, and the result is also verified that it is root
 
