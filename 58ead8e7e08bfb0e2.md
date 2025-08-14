@@ -14,6 +14,12 @@
 
 The reason for the SQL injection vulnerability is that the website application does not verify the validity of the data submitted by the user to the server (type, length, business parameter validity, etc.), and does not effectively filter the data input by the user with special characters , so that the user's input is directly brought into the database for execution, which exceeds the expected result of the original design of the SQL statement, resulting in a SQL injection vulnerability.Online Bank Management System does not filter the content correctly at the "feedback.php msg" parameter, resulting in the generation of SQL injection.
 
+#### Analysis
+feedback.php does not filter the incoming data, causing malicious SQL commands to be directly passed into, and eventually lead to SQL injection
+
+<img width="1152" height="529" alt="image" src="https://github.com/user-attachments/assets/a27f4c86-40e6-4078-88e0-036e16642c0b" />
+
+
 #### Payload used:
 
 ```POST /login.php HTTP/1.1
