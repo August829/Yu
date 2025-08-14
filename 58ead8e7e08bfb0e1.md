@@ -1,28 +1,33 @@
 # Vendor
 
-Vvveb
+diyhi
 
 # Product
 
-Vvveb
+bbs
 
 # version
 
-1.0.7.2
+6.8
 
 # Download 
 
-https://github.com/givanz/Vvveb
+https://gitee.com/diyhi/bbs
+https://www.diyhi.com/
+https://github.com/diyhi/bbs
 
 # Vulnerability
 
-Vvveb CMS latest version 1.0.7.2 has a vulnerability caused by arbitrary file upload.
+diyhi bbs latest version 6.8 Sensitive information leakage vulnerability
 
 # Description
 
-In Vvveb CMS latest version 1.0.7.2 (Vvveb1.0.7.2/system/traits/media.php) , users can directly rename the file, and there is no restriction on the file suffix. Then upload a file with normal suffix such as txt, and then rename it to a php file to RCE.
+In diyhi bbs latest version 6.8 (src/main/java/cms/web/action/filePackage/FilePackageManageAction.java) , users can package any file into a compressed package and download it, resulting in compressing and downloading the database account password configuration file, revealing sensitive information.
 
 # Analysis
+This document describes a Sensitive information leakage vulnerability found in the [bbs](https://gitee.com/diyhi/bbs) repository.
+
+Discovery Date: 2025-06-18
 
 Audits find that src/main/java/cms/web/action/filePackage/FilePackageManageAction.java
 
