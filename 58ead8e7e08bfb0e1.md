@@ -39,9 +39,11 @@ The vulnerability is reproduced as follows:
 
 <img width="927" height="473" alt="image" src="https://github.com/user-attachments/assets/89085f71-979e-4272-9622-3f479af2d3ff" />
 
+Then we download the compressed package:
 
 <img width="1920" height="626" alt="image" src="https://github.com/user-attachments/assets/264a6cf5-3825-4b7e-88a7-c86fd59a48fa" />
 
+Decompress the compressed packet to access this sensitive information:
 
 <img width="780" height="561" alt="image" src="https://github.com/user-attachments/assets/82274082-680c-4ef7-80ce-20a6a82818c1" />
 
