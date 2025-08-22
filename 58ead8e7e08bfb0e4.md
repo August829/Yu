@@ -27,8 +27,7 @@ The vulnerability was discovered by analyzing the firmware (ac9_kf_V15.03.05.19(
 3. Use a password-cracking tool (e.g., John) to crack the MD5-crypt hash of this user:
     - root:Fireitup:14319::::::
 
-<img width="763" height="148" alt="image" src="https://github.com/user-attachments/assets/31edbf69-bd30-4541-ac37-327ad256bd5f" />
-
+<img width="759" height="119" alt="image" src="https://github.com/user-attachments/assets/5eaf2557-3476-433e-b247-75e4f0f66a41" />
 
 4. Attempt to log in to the device's administrative interface or other network-accessible services using the cracked password.
 
