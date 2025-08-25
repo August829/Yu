@@ -37,11 +37,11 @@ The vulnerability was discovered by analyzing the firmware (ac9_kf_V15.03.05.19(
 ## Steps to Reproduce
 1. Extract the firmware image US_AC10V4.0si_V16.03.10.13_cn_TDC01.bin.
 2. Locate the file in the extracted squashfs-root directory: squashfs-root/etc_ro/shadow.
-3. Use a password-cracking tool (e.g., John) to crack the MD5-crypt hash of this user:
-    - root:Fireitup:14319::::::
 
 <img width="1509" height="135" alt="image" src="https://github.com/user-attachments/assets/97974b3b-114b-4e4b-96df-032a0acc99e7" />
 
+3. Use a password-cracking tool (e.g., John) to crack the MD5-crypt hash of this user:
+    - root:Fireitup:14319::::::
 
 <img width="759" height="119" alt="image" src="https://github.com/user-attachments/assets/5eaf2557-3476-433e-b247-75e4f0f66a41" />
 
