@@ -22,7 +22,7 @@ A hard-coded credentials vulnerability was identified in the Tenda Wi-Fi 5 Route
 The vulnerability was discovered by analyzing the firmware (ac9_kf_V15.03.05.19(6318_)_cn.bin). The file was extracted from the squashfs-root directory, and the MD5-crypt hash of the root user's password was cracked using John, resulting in the password "Fireitup". The cracked password allows attackers to log in to the router's system with root privileges.
 
 ## Steps to Reproduce
-1. Extract the firmware image US_AC10V4.0si_V16.03.10.13_cn_TDC01.bin.
+1. Extract the firmware image ac9_kf_V15.03.05.19(6318_)_cn.bin.
 2. Locate the file in the extracted squashfs-root directory: squashfs-root/etc_ro/shadow.
 3. Use a password-cracking tool (e.g., John) to crack the MD5-crypt hash of this user:
     - root:Fireitup:14319::::::
