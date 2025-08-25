@@ -37,7 +37,7 @@ The vulnerability was discovered by analyzing the firmware (US_W12V3.0si_V3.0.0.
 The file was extracted from the squashfs-root directory, and the MD5-crypt hash of the root user's password was cracked using John, resulting in the password "Fireitup". The cracked password allows attackers to log in to the router's system with root privileges.
 
 ## Steps to Reproduce
-1. Extract the firmware image US_AC10V4.0si_V16.03.10.13_cn_TDC01.bin.
+1. Extract the firmware image (US_W12V3.0si_V3.0.0.6(3948)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V2.0re_V2.0.0.6(10720)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V3.0si_V3.0.0.5(3644)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V2.0re_V2.0.0.3(8326)_CN&EN_TDC01.bin/US_W12V1.0re_V1.0.0.5(9419)_CN&EN_TDC01.bin/US_W12V1.0re_V1.0.0.1(5411)_CN&EN_TDC01.bin).
 2. Locate the file in the extracted squashfs-root directory: squashfs-root/etc_ro/shadow.
 
 <img width="1509" height="135" alt="image" src="https://github.com/user-attachments/assets/97974b3b-114b-4e4b-96df-032a0acc99e7" />
