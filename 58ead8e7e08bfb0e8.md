@@ -14,8 +14,6 @@ V2.0.0.3(8326)
 V1.0.0.5(9419)
 V1.0.0.1(5411)
 
-<img width="505" height="109" alt="image" src="https://github.com/user-attachments/assets/072dc532-68b5-48d3-a82a-192e5dec1398" />
-
 + **Attack Type**: Remote
 + **Attack Vector**: Unauthorized login using the default password (root:Fireitup) via network-accessible services or the administrative interface
 + **Impact**:
@@ -32,9 +30,6 @@ https://www.tenda.com.cn/material/show/658105462243397
 https://www.tenda.com.cn/material/show/3651
 https://www.tenda.com.cn/material/show/3650
 https://www.tenda.com.cn/material/show/3085
-
-<img width="485" height="109" alt="image" src="https://github.com/user-attachments/assets/4d4c783e-1de8-48d1-b96c-3df4753aad08" />
-
 
 ## Discovery
 The vulnerability was discovered by analyzing the firmware (ac9_kf_V15.03.05.19(6318_)_cn.bin). The file was extracted from the squashfs-root directory, and the MD5-crypt hash of the root user's password was cracked using John, resulting in the password "Fireitup". The cracked password allows attackers to log in to the router's system with root privileges.
