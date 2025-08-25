@@ -32,7 +32,10 @@ https://www.tenda.com.cn/material/show/3650
 https://www.tenda.com.cn/material/show/3085
 
 ## Discovery
-The vulnerability was discovered by analyzing the firmware (ac9_kf_V15.03.05.19(6318_)_cn.bin). The file was extracted from the squashfs-root directory, and the MD5-crypt hash of the root user's password was cracked using John, resulting in the password "Fireitup". The cracked password allows attackers to log in to the router's system with root privileges.
+The vulnerability was discovered by analyzing the firmware (US_W12V3.0si_V3.0.0.6(3948)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V2.0re_V2.0.0.6(10720)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V3.0si_V3.0.0.5(3644)_CN&EN_TDC01&TDE01_HighPower.bin/US_W12V2.0re_V2.0.0.3(8326)_CN&EN_TDC01.bin/US_W12V1.0re_V1.0.0.5(9419)_CN&EN_TDC01.bin/US_W12V1.0re_V1.0.0.1(5411)_CN&EN_TDC01.bin)
+
+<img width="505" height="109" alt="image" src="https://github.com/user-attachments/assets/293658aa-0949-4653-9594-73d7f3e54651" />
+). The file was extracted from the squashfs-root directory, and the MD5-crypt hash of the root user's password was cracked using John, resulting in the password "Fireitup". The cracked password allows attackers to log in to the router's system with root privileges.
 
 ## Steps to Reproduce
 1. Extract the firmware image US_AC10V4.0si_V16.03.10.13_cn_TDC01.bin.
